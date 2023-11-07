@@ -254,6 +254,13 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+    #list_right,
+    #list_left {
+        order: -1;
+    }
+    .search-box {
+        order: 0;
+    }
 }
 
 @media screen and (max-width: 450px) {
