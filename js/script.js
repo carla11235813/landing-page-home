@@ -20,7 +20,7 @@ function proximaImg(){
 
     if(cont > 4){
         cont = 1
-    }
+    } 
 
     //mudar fundo das bolinhas automaticamente
     document.getElementById('radio'+cont).checked = true 
